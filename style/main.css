@@ -10,7 +10,7 @@
     grid-template-columns: auto auto;
     gap: 20px;
     background-color: #022658;
-    border: 20px #f0f0f0 double;
+    border: 20px #000 ridge;
     padding: 20px;
     margin: 30px;
 }
@@ -61,7 +61,7 @@ body {
 }
 
 .content1 {
-    border: 8px dashed #000;
+    border: 8px outset #000;
     color: #022658;
     text-align: center;
     margin: 20px;
@@ -69,7 +69,7 @@ body {
 }
 
 .content2 {
-    border: 8px dashed #000;
+    border: 8px outset #000;
     color: #022658;    
     text-align: center;
     margin: 20px;
@@ -77,33 +77,39 @@ body {
 }
 
 .item1 {
-    border: 8px double #000;
+    border: 15px inset #000;
+    margin: 30px;
 }
 
 .item2 {
     color: #022658;
     font-weight: bold;
     border: 8px double #000;
+    margin: 50px;
 }
 
 .item3 {
-    border: 8px double #000;
+    border: 15px inset #000;
+    margin: 30px;
 }
 
 .item4 {
     color: #022658;
     font-weight: bold;
     border: 8px double #000;
+    margin: 50px;
 }
 
 .item5 {
-    border: 8px double #000;
+    border: 15px inset #000;
+    margin: 30px;
 }
 
 .item6 {
     color: #022658;
     font-weight: bold;
     border: 8px double #000;
+    margin: 50px;
 }
 
 
