@@ -1,0 +1,140 @@
+/*imports normalize file*/
+@import "normalize.css";
+
+.grid-container {
+    font-family:'Avenir Next', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: grid;
+    height: 300px;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    background-color: #022658;
+    border: 20px #f0f0f0 double;
+    padding: 20px;
+    margin: 30px;
+}
+
+.grid-container > div {
+    max-width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+  }
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+h3 {
+    font-family:'Avenir Next', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+p {
+    font-size: 15px;
+    font-family:'Avenir Next', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+    }
+
+.header {
+    color: #022658;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border: 5px;
+    border-style: double;
+    border-color: #000;
+    border-width: 40px;
+    font-size: 40px;
+}
+
+body {
+    background-color: #cecece;
+    margin: 20px;
+}
+
+.content1 {
+    border: 8px dashed #000;
+    color: #022658;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+.content2 {
+    border: 8px dashed #000;
+    color: #022658;    
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+.item1 {
+    border: 8px double #000;
+}
+
+.item2 {
+    color: #022658;
+    font-weight: bold;
+    border: 8px double #000;
+}
+
+.item3 {
+    border: 8px double #000;
+}
+
+.item4 {
+    color: #022658;
+    font-weight: bold;
+    border: 8px double #000;
+}
+
+.item5 {
+    border: 8px double #000;
+}
+
+.item6 {
+    color: #022658;
+    font-weight: bold;
+    border: 8px double #000;
+}
+
+
+/* FOR MOBILE OR SMALLER SCREENS ... 1 column grid (state 1) */
+@media screen and (max-width: 767px) {
+    .grid-container {
+        max-width: 100%;
+        height: auto;
+        grid-template-columns: auto;
+        }
+        
+    }
+    .header {
+        font-size: 15px;
+        }
+
+/* FOR TABLETS OR MEDIUM SCREENS ... 2 column grid (state 1) */
+@media screen and (min-width: 768px) {
+    .grid-container {
+        max-width: 100%;
+        height: auto;
+        grid-template-columns: auto auto;
+    }
+    .header {
+        font-size: 25px;
+        }
+
+        /* FOR LAPTOPS OR LARGER SCREENS ... 2 column grid (state 1) */
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        max-width: 100%;
+        height: auto;
+        grid-template-columns: auto auto;
+}
